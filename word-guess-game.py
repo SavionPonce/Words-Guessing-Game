@@ -62,8 +62,8 @@ def WordGuessingGame():
             WordGuessingGame()
         if playAgain == 'No':
             exit
-        else:
-            wins += 1
+    else:
+        wins += 1
 
 
 WordGuessingGame()
